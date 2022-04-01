@@ -1,0 +1,15 @@
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\bin\Debug\net6.0\Purse.exe
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\bin\Debug\net6.0\Purse.deps.json
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\bin\Debug\net6.0\Purse.runtimeconfig.json
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\bin\Debug\net6.0\Purse.dll
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\bin\Debug\net6.0\Purse.pdb
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\obj\Debug\net6.0\Purse.csproj.AssemblyReference.cache
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\obj\Debug\net6.0\Purse.GeneratedMSBuildEditorConfig.editorconfig
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\obj\Debug\net6.0\Purse.AssemblyInfoInputs.cache
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\obj\Debug\net6.0\Purse.AssemblyInfo.cs
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\obj\Debug\net6.0\Purse.csproj.CoreCompileInputs.cache
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\obj\Debug\net6.0\Purse.dll
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\obj\Debug\net6.0\refint\Purse.dll
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\obj\Debug\net6.0\Purse.pdb
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\obj\Debug\net6.0\Purse.genruntimeconfig.cache
+D:\UNIVERSITY\4-year\2-nd_semester\Industrial_Software_Development\Labs\Lab2\PRPP-Lab2\PRPP-Lab2\Purse\obj\Debug\net6.0\ref\Purse.dll
