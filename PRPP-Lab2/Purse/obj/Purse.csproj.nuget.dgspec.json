@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj": {}
+    "C:\\Users\\Karina Koshechka\\OneDrive\\Рабочий стол\\4 курс 2 семестр\\Промислова розробка\\Lab2\\PRPP-Lab2\\Purse\\Purse.csproj": {}
   },
   "projects": {
-    "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj": {
+    "C:\\Users\\Karina Koshechka\\OneDrive\\Рабочий стол\\4 курс 2 семестр\\Промислова розробка\\Lab2\\PRPP-Lab2\\Purse\\Purse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+        "projectUniqueName": "C:\\Users\\Karina Koshechka\\OneDrive\\Рабочий стол\\4 курс 2 семестр\\Промислова розробка\\Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
         "projectName": "Purse",
-        "projectPath": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\obj\\",
+        "projectPath": "C:\\Users\\Karina Koshechka\\OneDrive\\Рабочий стол\\4 курс 2 семестр\\Промислова розробка\\Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+        "packagesPath": "C:\\Users\\Karina Koshechka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karina Koshechka\\OneDrive\\Рабочий стол\\4 курс 2 семестр\\Промислова розробка\\Lab2\\PRPP-Lab2\\Purse\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Programs\\VisualStudio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Karina Koshechka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
