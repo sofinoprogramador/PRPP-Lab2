@@ -1,4 +1,5 @@
-﻿namespace Purse
+﻿using System;
+namespace Purse
 {
 
     class Program

@@ -1,39 +1,67 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net5.0": {
+      "Money/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Money.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Money.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Money/1.0.0": {
+      "type": "project",
+      "path": "../Money/Money.csproj",
+      "msbuildProject": "../Money/Money.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net5.0": [
+      "Money >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Karina Koshechka\\.nuget\\packages\\": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "D:\\Programs\\VisualStudio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Karina Koshechka\\OneDrive\\Рабочий стол\\4 курс 2 семестр\\Промислова розробка\\Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+      "projectUniqueName": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
       "projectName": "Purse",
-      "projectPath": "C:\\Users\\Karina Koshechka\\OneDrive\\Рабочий стол\\4 курс 2 семестр\\Промислова розробка\\Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
-      "packagesPath": "C:\\Users\\Karina Koshechka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Karina Koshechka\\OneDrive\\Рабочий стол\\4 курс 2 семестр\\Промислова розробка\\Lab2\\PRPP-Lab2\\Purse\\obj\\",
+      "projectPath": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Programs\\VisualStudio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Karina Koshechka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "projectReferences": {}
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj": {
+              "projectPath": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -43,8 +71,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
@@ -55,12 +83,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.14, 5.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
