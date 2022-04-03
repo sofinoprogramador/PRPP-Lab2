@@ -12,6 +12,16 @@
           "bin/placeholder/BusinessCard.dll": {}
         }
       },
+      "CreditCard/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CreditCard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CreditCard.dll": {}
+        }
+      },
       "Money/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -30,6 +40,11 @@
       "path": "../BusinessCard/BusinessCard.csproj",
       "msbuildProject": "../BusinessCard/BusinessCard.csproj"
     },
+    "CreditCard/1.0.0": {
+      "type": "project",
+      "path": "../CreditCard/CreditCard.csproj",
+      "msbuildProject": "../CreditCard/CreditCard.csproj"
+    },
     "Money/1.0.0": {
       "type": "project",
       "path": "../Money/Money.csproj",
@@ -39,23 +54,28 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "BusinessCard >= 1.0.0",
+      "CreditCard >= 1.0.0",
       "Money >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Назар\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+      "projectUniqueName": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
       "projectName": "Purse",
-      "projectPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
-      "packagesPath": "C:\\Users\\Назар\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\obj\\",
+      "projectPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Purse\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Назар\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,11 +89,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj": {
-              "projectPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj"
+            "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj": {
+              "projectPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj"
             },
-            "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj": {
-              "projectPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj"
+            "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\CreditCard\\CreditCard.csproj": {
+              "projectPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\CreditCard\\CreditCard.csproj"
+            },
+            "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj": {
+              "projectPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj"
             }
           }
         }
@@ -97,18 +120,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.14, 5.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

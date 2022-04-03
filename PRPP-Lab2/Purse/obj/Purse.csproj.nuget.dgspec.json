@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj": {}
+    "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj": {
+    "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj",
+        "projectUniqueName": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj",
         "projectName": "BusinessCard",
-        "projectPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj",
-        "packagesPath": "C:\\Users\\Назар\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\obj\\",
+        "projectPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Назар\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,32 +52,86 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.14, 5.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj": {
+    "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\CreditCard\\CreditCard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj",
+        "projectUniqueName": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\CreditCard\\CreditCard.csproj",
+        "projectName": "CreditCard",
+        "projectPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\CreditCard\\CreditCard.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\CreditCard\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj",
         "projectName": "Money",
-        "projectPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj",
-        "packagesPath": "C:\\Users\\Назар\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Money\\obj\\",
+        "projectPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Money\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Назар\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,32 +166,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.14, 5.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj": {
+    "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+        "projectUniqueName": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
         "projectName": "Purse",
-        "projectPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
-        "packagesPath": "C:\\Users\\Назар\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\obj\\",
+        "projectPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Purse\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Назар\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,11 +202,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj": {
-                "projectPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj"
+              "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj": {
+                "projectPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj"
               },
-              "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj": {
-                "projectPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj"
+              "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\CreditCard\\CreditCard.csproj": {
+                "projectPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\CreditCard\\CreditCard.csproj"
+              },
+              "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj": {
+                "projectPath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj"
               }
             }
           }
@@ -176,18 +233,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.14, 5.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

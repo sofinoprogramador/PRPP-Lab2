@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "55oEjYwLRmrqsjZPoBQF2ASYrR3en+uAT0nIskuMtYSIq+zxscm3Kg1+u31YwTtdbw54r9ziL7LOnvf8t0oWSg==",
+  "dgSpecHash": "r//CAvjxUfXrMyDH6aXjjwwso9976mdwTgzPkwXY2yHht1IIeH/VKsi3dFqeIzGuXPCwVpS2n1dT55V7x/i+qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Назар\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Desktop\\ПРПП\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
