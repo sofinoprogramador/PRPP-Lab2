@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0pqLpAhm4n1x6p/JlU9/hmfXFYqL9l0ZG156gTMfqrHMxEVtoYOSPzR6BF08K678M3gC6O32ILPxRs0BjzZNIg==",
+  "dgSpecHash": "55oEjYwLRmrqsjZPoBQF2ASYrR3en+uAT0nIskuMtYSIq+zxscm3Kg1+u31YwTtdbw54r9ziL7LOnvf8t0oWSg==",
   "success": true,
-  "projectFilePath": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+  "projectFilePath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+    "C:\\Users\\Назар\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
   ],
   "logs": []
 }

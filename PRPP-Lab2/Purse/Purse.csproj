@@ -9,6 +9,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Money\Money.csproj" />
+	    <ProjectReference Include="..\BusinessCard\BusinessCard.csproj" />
 	</ItemGroup>
-
 </Project>
