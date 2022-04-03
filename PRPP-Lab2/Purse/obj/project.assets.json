@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "BusinessCard/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BusinessCard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessCard.dll": {}
+        }
+      },
       "Money/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "BusinessCard/1.0.0": {
+      "type": "project",
+      "path": "../BusinessCard/BusinessCard.csproj",
+      "msbuildProject": "../BusinessCard/BusinessCard.csproj"
+    },
     "Money/1.0.0": {
       "type": "project",
       "path": "../Money/Money.csproj",
@@ -23,28 +38,24 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "BusinessCard >= 1.0.0",
       "Money >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {},
-    "D:\\Programs\\VisualStudio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Назар\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+      "projectUniqueName": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
       "projectName": "Purse",
-      "projectPath": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Purse\\obj\\",
+      "projectPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\Purse.csproj",
+      "packagesPath": "C:\\Users\\Назар\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Purse\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Programs\\VisualStudio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Назар\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,8 +69,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj": {
-              "projectPath": "D:\\UNIVERSITY\\4-year\\2-nd_semester\\Industrial_Software_Development\\Labs\\Lab2\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj"
+            "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj": {
+              "projectPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\BusinessCard\\BusinessCard.csproj"
+            },
+            "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj": {
+              "projectPath": "C:\\Users\\Назар\\PRPP-Lab2\\PRPP-Lab2\\Money\\Money.csproj"
             }
           }
         }
